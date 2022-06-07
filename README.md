@@ -17,7 +17,7 @@ ttps://notify-bot.line.me/oauth/authorize?response_type=code&scope=notify&client
 ##### 使用者通過這個鏈結後台可以取得code($_GET[“code”])
 
 ## 3.使用code換取Token
-[範例]()
+[範例](https://github.com/ZellZone/LineNotify/blob/main/callback/index.php)
 ```php
 <?php
     //取得token
@@ -54,7 +54,7 @@ ttps://notify-bot.line.me/oauth/authorize?response_type=code&scope=notify&client
 #### 執行後會取得 access_token
 
 ## 利用 Access Token 來推播訊息
-[範例]()
+[範例](https://github.com/ZellZone/LineNotify/blob/main/index.php)
 ```php
 <?php
     //發送訊息
