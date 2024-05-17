@@ -9,7 +9,7 @@
 ## 2.綁定使用者的Line Notify
 
 ```url
-ttps://notify-bot.line.me/oauth/authorize?response_type=code&scope=notify&client_id=client_id&redirect_uri=url&state=state
+https://notify-bot.line.me/oauth/authorize?response_type=code&scope=notify&client_id=client_id&redirect_uri=url&state=state
 ```
 ##### client_id = Line Notify後台取得的 Client ID
 ##### redirect_uri = Line Notify後台設定的Callback URL
